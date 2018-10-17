@@ -125,7 +125,24 @@ body {
                   border-radius: 50%;
                   flex-basis: 115px;
                   width: 115px;
-                  margin-bottom: 25px; }
+                  margin-bottom: 25px;
+                  animation: scale-1 0.5s linear 1.5s;
+                  animation-fill-mode: forwards;
+                  transform: scale(0); }
+
+@keyframes scale-1 {
+  0% {
+    transform: scale(0); }
+  50% {
+    transform: scale(1); }
+  75% {
+    transform: scale(0.8); }
+  80% {
+    transform: scale(0.8); }
+  85% {
+    transform: scale(0.8); }
+  100% {
+    transform: scale(1); } }
                 body .block-site .main .main-section .section-item_header_content .icon-block .icon-head__heart {
                   flex: 0 1;
                   background: url(src/images/index/heart.png) no-repeat 50% 50% white;
@@ -133,7 +150,10 @@ body {
                   border-radius: 50%;
                   flex-basis: 115px;
                   width: 115px;
-                  margin-bottom: 25px; }
+                  margin-bottom: 25px;
+                  animation: scale-1 0.5s linear 2s;
+                  animation-fill-mode: forwards;
+                  transform: scale(0); }
                 body .block-site .main .main-section .section-item_header_content .icon-block .icon-head__gift {
                   flex: 0 1;
                   background: url(src/images/index/box.png) no-repeat 50% 50% white;
@@ -141,12 +161,27 @@ body {
                   border-radius: 50%;
                   flex-basis: 115px;
                   width: 115px;
-                  margin-bottom: 25px; }
+                  margin-bottom: 25px;
+                  animation: scale-1 0.5s linear 2.5s;
+                  animation-fill-mode: forwards;
+                  transform: scale(0); }
                 body .block-site .main .main-section .section-item_header_content .icon-block .icon-head__text {
                   flex: 0;
                   line-height: 25px; }
                   body .block-site .main .main-section .section-item_header_content .icon-block .icon-head__text_color {
                     color: red; }
+                  body .block-site .main .main-section .section-item_header_content .icon-block .icon-head__text_scale-p {
+                    animation: scale-1 0s linear 1.5s;
+                    animation-fill-mode: forwards;
+                    transform: scale(0); }
+                  body .block-site .main .main-section .section-item_header_content .icon-block .icon-head__text_scale-h {
+                    animation: scale-1 0s linear 2s;
+                    animation-fill-mode: forwards;
+                    transform: scale(0); }
+                  body .block-site .main .main-section .section-item_header_content .icon-block .icon-head__text_scale-g {
+                    animation: scale-1 0s linear 2.5s;
+                    animation-fill-mode: forwards;
+                    transform: scale(0); }
             body .block-site .main .main-section .section-item_header_content .h1-block {
               flex: 1 1;
               flex-direction: column;
