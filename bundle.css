@@ -43,7 +43,7 @@ body {
       z-index: 2; }
       body .block-site .menu-fixed .item {
         cursor: pointer;
-        flex: 1 1 70px;
+        flex: 0 1 120px;
         font-family: 'GothamPro-Regular';
         color: #555555;
         display: flex;
@@ -55,25 +55,25 @@ body {
         border-top: 1px solid white;
         transition: border-color 1s ease; }
         body .block-site .menu-fixed .item__p_icon {
-          margin-bottom: 30px;
+          margin-bottom: 56px;
           font-size: 16px; }
         body .block-site .menu-fixed .item__p_photo-camera {
-          margin-bottom: 30px; }
+          margin-bottom: 23px; }
         body .block-site .menu-fixed .item__p_prize {
-          margin-bottom: 25px; }
+          margin-bottom: 23px; }
         body .block-site .menu-fixed .item__p_map {
-          margin-bottom: 30px; }
+          margin-bottom: 20px; }
         body .block-site .menu-fixed .item_icon {
           color: #d85358;
           font-weight: bold;
-          flex-basis: 100px;
-          background: url(src/images/index/lays-icon.png) no-repeat 50% 30%; }
+          flex-basis: 200px;
+          background: url(src/images/index/lays-icon.png) no-repeat 50% 23%; }
         body .block-site .menu-fixed .item_photo-camera {
-          background: url(src/images/index/photo.png) no-repeat 50% 40%; }
+          background: url(src/images/index/photo.png) no-repeat 50% 37%; }
         body .block-site .menu-fixed .item_prize {
-          background: url(src/images/index/prize.png) no-repeat 50% 40%; }
+          background: url(src/images/index/prize.png) no-repeat 50% 30%; }
         body .block-site .menu-fixed .item_map {
-          background: url(src/images/index/map.png) no-repeat 50% 40%; }
+          background: url(src/images/index/map.png) no-repeat 48% 40%; }
         body .block-site .menu-fixed .item_hover:hover {
           border-bottom: 1px solid lightgray;
           border-top: 1px solid lightgray; }
@@ -87,8 +87,10 @@ body {
         display: flex;
         flex-direction: row; }
         body .block-site .main .main-section_image {
-          background: url(src/images/index/gallery_1.6e98f8b2.jpg) no-repeat;
-          background-size: cover; }
+          background: url(src/images/index/gallery_1.6e98f8b2.jpg) no-repeat 50% 50%;
+          background-size: cover;
+          flex-basis: 655px;
+          flex-grow: 0; }
         body .block-site .main .main-section_scale-aer-img:hover .section-item__img-aerostat {
           transform: scale(1.2); }
         body .block-site .main .main-section_scale-vac-img:hover .section-item__img-vacation {
@@ -105,8 +107,8 @@ body {
               font-family: 'GothamPro-Regular';
               font-size: 18px; }
               body .block-site .main .main-section .section-item_header_content .icon-block_margin {
-                margin-left: 80px;
-                margin-top: 75px; }
+                margin-left: 83px;
+                margin-top: 78px; }
               body .block-site .main .main-section .section-item_header_content .icon-block .icon-head {
                 display: flex;
                 flex: 0 1 160px;
@@ -114,17 +116,19 @@ body {
                 flex-direction: column;
                 justify-content: flex-start;
                 align-items: center; }
+                body .block-site .main .main-section .section-item_header_content .icon-block .icon-head_icon-1 {
+                  margin-right: 20px; }
                 body .block-site .main .main-section .section-item_header_content .icon-block .icon-head_icon-2 {
-                  margin-left: 20px; }
+                  margin-left: 6px; }
                 body .block-site .main .main-section .section-item_header_content .icon-block .icon-head_icon-3 {
-                  margin-left: 20px; }
+                  margin-left: 24px; }
                 body .block-site .main .main-section .section-item_header_content .icon-block .icon-head__photoo {
                   flex: 0 0;
-                  background: url(src/images/index/photoo.png) no-repeat 50% 50% white;
-                  background-size: 115px 115px;
+                  background: url(src/images/index/photoo.png) no-repeat 50% 47% white;
+                  background-size: 120px 120px;
                   border-radius: 50%;
-                  flex-basis: 115px;
-                  width: 115px;
+                  flex-basis: 120px;
+                  width: 120px;
                   margin-bottom: 25px;
                   animation: scale-1 0.5s linear 1.5s;
                   animation-fill-mode: forwards;
@@ -186,17 +190,25 @@ body {
               flex: 1 1;
               flex-direction: column;
               color: #f73934;
-              margin-left: 100px; }
+              margin-left: 80px;
+              margin-bottom: 44px; }
               body .block-site .main .main-section .section-item_header_content .h1-block__h1-1 {
-                font-size: 95px;
-                font-family: 'GothamPro-Medium'; }
+                font-size: 97px;
+                font-family: 'GothamPro-Medium';
+                line-height: 95px;
+                letter-spacing: 6px; }
               body .block-site .main .main-section .section-item_header_content .h1-block__h1-2 {
-                font-size: 60px;
-                font-family: 'GothamPro-Light'; }
+                font-size: 55px;
+                font-family: 'GothamPro-Light';
+                line-height: 55px;
+                letter-spacing: 2.5px;
+                margin-right: -7px; }
               body .block-site .main .main-section .section-item_header_content .h1-block__h1-3 {
                 font-size: 90px;
                 font-family: 'GothamPro-Black';
-                margin-left: 25px; }
+                margin-left: 25px;
+                line-height: 60px;
+                letter-spacing: -2px; }
           body .block-site .main .main-section .section-item_gallery {
             background: url(src/images/index/gallery_block.d7a874af.jpg) no-repeat;
             background-size: cover;
@@ -218,16 +230,16 @@ body {
               body .block-site .main .main-section .section-item .box-icon-gl__icon_fb {
                 background: url(src/images/index/gallery-fb.png) white no-repeat;
                 background-size: cover;
-                transform: rotate(-40deg) translate(-25px, 53px); }
+                transform: rotate(-40deg) translate(-30px, 63px); }
               body .block-site .main .main-section .section-item .box-icon-gl__icon_vk {
                 background: url(src/images/index/gallery-vk.png) white no-repeat 50% 50%;
                 background-size: 60px 60px;
-                transform: rotate(7deg) translate(21px, 0px);
+                transform: rotate(7deg) translate(23px, 10px);
                 z-index: 1; }
               body .block-site .main .main-section .section-item .box-icon-gl__icon_inst {
                 background: url(src/images/index/photo-apparat.jpg) white no-repeat 50% 50%;
                 background-size: 45px 45px;
-                transform: rotate(30deg) translate(30px, 80px);
+                transform: rotate(30deg) translate(38px, 88px);
                 flex-basis: 85px;
                 height: 85px; }
               body .block-site .main .main-section .section-item .box-icon-gl__icon_st {
@@ -237,15 +249,17 @@ body {
           body .block-site .main .main-section .section-item__h1_gallery {
             font-family: 'GothamPro-Bold';
             font-size: 45px;
-            margin: 0 0 0 94px;
-            line-height: 57px; }
+            margin: 0 0 0 96px;
+            line-height: 57px;
+            letter-spacing: -0.5px; }
           body .block-site .main .main-section .section-item__p_gallery {
             font-size: 45px;
             font-family: 'GothamPro-Regular';
             background: white;
             color: #d34748;
             padding: 10px;
-            margin: 0 0 38px 88px; }
+            margin: 0 0 38px 88px;
+            letter-spacing: -0.5px; }
           body .block-site .main .main-section .section-item_photos {
             background: white;
             justify-content: center;
@@ -285,7 +299,7 @@ body {
               background: url(src/images/stub/9.4c9c4447.png) no-repeat;
               background-size: cover; }
           body .block-site .main .main-section .section-item_prize {
-            background: url(src/images/index/about_block_icons.4102b1d1.png) 11% 28% no-repeat, url(src/images/index/about_block.dbb14942.png) no-repeat;
+            background: url(src/images/index/about_block_icons.4102b1d1.png) 11% 24% no-repeat, url(src/images/index/about_block.dbb14942.png) no-repeat;
             background-size: 273px 300px,cover;
             display: flex;
             flex-direction: column;
@@ -296,25 +310,26 @@ body {
               content: "";
               position: relative;
               z-index: 1;
-              right: -705px;
-              bottom: -200px;
+              right: -700px;
+              bottom: -193px;
               background: url(src/images/index/red.png) no-repeat;
               background-size: contain;
-              width: 140px;
-              height: 140px; }
+              width: 120px;
+              height: 120px; }
           body .block-site .main .main-section .section-item__h1-prize {
             font-size: 60px;
             font-family: 'GothamPro-Bold';
             align-self: flex-end;
-            margin-right: 105px;
-            margin-bottom: 75px;
+            margin-right: 104px;
+            margin-bottom: 76px;
             line-height: 65px; }
           body .block-site .main .main-section .section-item__p-prize {
             font-size: 20px;
             margin: 0 0 45px 90px;
             line-height: 28px;
             font-family: 'GothamPro-Regular';
-            font-weight: normal; }
+            font-weight: normal;
+            letter-spacing: 0.1px; }
           body .block-site .main .main-section .section-item_aerostat {
             display: flex;
             overflow: hidden; }
@@ -342,7 +357,7 @@ body {
             body .block-site .main .main-section .section-item_map::before {
               content: "";
               position: relative;
-              top: -10px;
+              top: -20px;
               left: -343px;
               background: url("src/images/index/yellow .png") no-repeat;
               background-size: contain;
@@ -366,14 +381,14 @@ body {
             body .block-site .main .main-section .section-item__button_gallery {
               margin: 0 0 95px 88px; }
             body .block-site .main .main-section .section-item__button_prize {
-              margin: 0 0 80px 88px; }
+              margin: 0 0 100px 88px; }
             body .block-site .main .main-section .section-item__button_map {
               margin-bottom: 60px; }
           body .block-site .main .main-section .section-item__text {
             font-family: "GothamPro-Bold";
             font-size: 67px;
-            margin-bottom: 40px;
-            margin-left: -7px; }
+            margin-bottom: 37px;
+            margin-left: -5px; }
     body .block-site .footer {
       margin-left: 150px;
       flex-basis: 100px;
@@ -388,7 +403,7 @@ body {
           margin-left: -10px; }
           body .block-site .footer .mini-icon__item_logo {
             background: url(src/images/index/icon-1.jpeg) no-repeat 50% 50%;
-            background-size: 80px 90px;
+            background-size: 80px 100px;
             margin-left: 17px;
             height: 100px; }
           body .block-site .footer .mini-icon__item_text {
