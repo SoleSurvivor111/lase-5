@@ -305,7 +305,8 @@ body {
             flex-direction: column;
             justify-content: flex-end;
             align-items: flex-start;
-            color: white; }
+            color: white;
+            z-index: 1; }
             body .block-site .main .main-section .section-item_prize::before {
               content: "";
               position: relative;
