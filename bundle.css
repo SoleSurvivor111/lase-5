@@ -802,8 +802,9 @@ body {
               flex-wrap: wrap;
               justify-content: center; }
             body .block-site .main .main-section .section-item__box {
-              width: 31.5%;
-              height: 31.5%; }
+              width: 30%;
+              height: 30%;
+              margin: .5vw; }
             body .block-site .main .main-section .section-item_prize {
               align-items: flex-start;
               background: url(src/images/mobile/about_block_mobile.088df3d6.png) no-repeat #0063c8;
@@ -854,7 +855,6 @@ body {
               background: url(src/images/index/lays_img.5f4a68cd.jpg) no-repeat;
               background-size: 100% 100%;
               flex: 1 1;
-              transform: scale(1);
               transition: transform 10s linear; }
             body .block-site .main .main-section .section-item_map {
               align-items: center;
@@ -914,6 +914,8 @@ body {
               font-size: 9px;
               margin-bottom: 0;
               margin-left: 29px; }
+              body .block-site .footer .mini-icon__item_text-none {
+                display: none; }
         body .block-site .footer .links {
           display: flex;
           flex: 0 0 180px;
