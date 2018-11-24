@@ -74,7 +74,7 @@ body {
   background: #ffdc00;
   display: flex;
   flex-direction: column;
-  height: 182vw;
+  height: 186vw;
   margin: 0 auto;
   max-width: 1920px;
   min-width: 320px;
@@ -167,7 +167,7 @@ body {
   .main-section_image {
     background: url(src/images/index/gallery_1.6e98f8b2.jpg) no-repeat 50% 50%;
     background-size: 100% 100%;
-    flex: 0 1 41vw; }
+    flex: 0 1 42vw; }
   .main-section_gall-photo {
     opacity: 0; }
   .main-section_scale-aer-img:hover .section-item__img-aerostat {
@@ -189,6 +189,7 @@ body {
   .section-item__h1_gallery {
     font-family: 'GothamPro-Bold';
     font-size: 2.88vw;
+    letter-spacing: -.03vw;
     line-height: 3.65vw;
     margin: 0 0 0 6.15vw; }
   .section-item__p_gallery {
@@ -206,9 +207,9 @@ body {
   .section-item__box {
     cursor: pointer;
     display: flex;
-    height: 31%;
+    height: 30%;
     margin: .2vw;
-    width: 31%; }
+    width: 30%; }
     .section-item__box-photo-1 {
       background: url(src/images/stub/1.dc59205a.png) no-repeat;
       background-size: cover; }
@@ -251,10 +252,10 @@ body {
       background-size: contain;
       bottom: 54%;
       content: '';
-      height: 10.25vw;
+      height: 10.3vw;
       position: absolute;
       right: -9%;
-      width: 4.44vw;
+      width: 5.6vw;
       z-index: 1; }
   .section-item__h1-prize {
     align-self: flex-end;
@@ -262,14 +263,14 @@ body {
     font-size: 3.84vw;
     line-height: 4.17vw;
     margin-bottom: 4.87vw;
-    margin-right: 3.5vw; }
+    margin-right: 6.6vw; }
   .section-item__p-prize {
     font-family: 'GothamPro-Regular';
     font-size: 1.28vw;
     font-weight: normal;
     letter-spacing: .006vw;
     line-height: 1.8vw;
-    margin: 0 0 2.88vw 5.76vw; }
+    margin: 0 0 2.7vw 5.76vw; }
   .section-item__h1-prize-mobile {
     display: none; }
   .section-item__p-prize-mobile {
@@ -304,11 +305,11 @@ body {
       background: url("src/images/index/yellow .png") no-repeat;
       background-size: contain;
       content: '';
-      height: 10.25vw;
-      left: -9.5%;
+      height: 10.4vw;
+      left: -8%;
       position: absolute;
-      top: 42%;
-      width: 4.44vw; }
+      top: 43%;
+      width: 6vw; }
   .section-item__button {
     background: rgba(143, 12, 0, 0.1);
     border: 1.5px solid white;
@@ -325,17 +326,16 @@ body {
     .section-item__button:hover {
       background-color: rgba(0, 0, 0, 0.4); }
     .section-item__button_gallery {
-      margin: 0 0 5.6vw 5.64vw; }
+      margin: 0 0 6.2vw 5.64vw; }
     .section-item__button_prize {
-      margin: 0 0 6.41vw 5.64vw; }
+      margin: 0 0 7vw 5.64vw; }
     .section-item__button_map {
-      margin-bottom: 3.84vw; }
+      margin-bottom: 4.4vw; }
   .section-item__text {
     color: #301f20;
     font-family: 'GothamPro-Bold';
     font-size: 4.29vw;
-    margin-bottom: 2.37vw;
-    margin-left: .32vw; }
+    margin-bottom: 2.37vw; }
 
 .icon-block {
   align-items: flex-start;
@@ -343,8 +343,8 @@ body {
   flex: 1 1;
   font-family: 'GothamPro-Regular'; }
   .icon-block_margin {
-    margin-left: 3.9vw;
-    margin-top: 3.8vw; }
+    margin-left: 5.5vw;
+    margin-top: 5vw; }
 
 .icon-head {
   align-items: center;
@@ -416,25 +416,25 @@ body {
   color: #f73934;
   flex: 1 1;
   flex-direction: column;
-  margin-bottom: 5.5vw;
-  margin-left: 3.5vw; }
+  margin-bottom: 3vw;
+  margin-left: 5.1vw; }
   .h1-block__h1-1 {
     font-family: 'GothamPro-Medium';
     font-size: 6.25vw;
-    letter-spacing: .26vw;
+    letter-spacing: .35vw;
     line-height: 6.25vw; }
   .h1-block__h1-2 {
     font-family: 'GothamPro-Light';
     font-size: 3.5vw;
-    letter-spacing: .16vw;
+    letter-spacing: .2vw;
     line-height: 3.5vw;
     margin-right: -.45vw; }
   .h1-block__h1-3 {
     font-family: 'GothamPro-Black';
-    font-size: 5vw;
+    font-size: 5.3vw;
     letter-spacing: .26vw;
-    line-height: 3.8vw;
-    margin-left: 1.6vw; }
+    line-height: 4.2vw;
+    margin-left: 1.7vw; }
 
 .box-icon-gl {
   align-items: flex-end;
@@ -442,7 +442,7 @@ body {
   background-size: 100% 100%;
   flex: 0 1 15vw;
   margin-bottom: 1vw;
-  margin-left: 8vw;
+  margin-left: 7vw;
   width: 12.23vw; }
 
 .footer {
@@ -495,6 +495,47 @@ body {
       filter: brightness(80%); }
 
 @media only screen and (max-width: 1400px) {
+  .block-site {
+    height: 182vw; }
+  .main-section_image {
+    flex: 0 1 41.5vw; }
+  .icon-head_icon-1 {
+    margin-right: .9vw; }
+  .section-item::before {
+    bottom: 52.5%; }
+  .section-item__button_prize {
+    margin: 0 0 6.36vw 5.5vw; }
+  .section-item__button_prize {
+    margin: 0 0 6.36vw 5.5vw; }
+  .section-item__button {
+    width: 15.7vw; }
+    .section-item__button_map {
+      margin-bottom: 3.7vw; }
+  .section-item__p-prize {
+    letter-spacing: 0;
+    margin: 0 0 2.6vw 5.76vw; }
+  .section-item__h1_gallery {
+    font-size: 2.8vw; }
+  .section-item__h1-prize {
+    margin-right: 6.4vw; }
+  .section-item__p_gallery {
+    margin: -.2vw 0 2.43vw 5.64vw; }
+  .section-item__text {
+    margin-bottom: 2.1vw;
+    margin-left: 0; }
+  .section-item__button_gallery {
+    margin: 0 0 5.9vw 5.5vw; }
+  .icon-head__photoo {
+    margin-bottom: 1.4vw; }
+  .h1-block {
+    margin-bottom: 3.3vw;
+    margin-left: 4.9vw; }
+    .h1-block__h1-1 {
+      letter-spacing: .3vw; }
+    .h1-block__h1-2 {
+      letter-spacing: .2vw; }
+  .box-icon-gl {
+    margin-bottom: .4vw; }
   .footer {
     flex: 0 0 60px;
     margin-left: 150px; }
@@ -573,12 +614,11 @@ body {
       display: flex;
       flex: 1 1;
       flex-direction: column;
-      height: 812.5vw;
+      height: 805.5vw;
       overflow: hidden;
       width: 100%; }
       body .block-site .menu-wrap {
         align-items: center;
-        background: #f6f6f6;
         border-bottom: 1px solid lightgray;
         display: flex;
         flex-direction: row;
@@ -707,18 +747,18 @@ body {
           font-family: 'GothamPro-Regular';
           font-size: 2.82vw; }
           body .block-site .section-item .icon-block_margin {
-            margin: 0 0 0 4.06vw; }
+            margin: 0 0 0 4.2vw; }
         body .block-site .section-item .icon-head {
           align-items: center;
           flex-direction: column;
           justify-content: flex-start; }
           body .block-site .section-item .icon-head_icon-1 {
-            flex-basis: 26.56vw;
-            margin-right: 3.12vw; }
+            flex-basis: 32.3vw;
+            margin-right: 3vw; }
           body .block-site .section-item .icon-head_icon-2 {
             margin-left: 0; }
           body .block-site .section-item .icon-head_icon-3 {
-            margin-left: 6.87vw; }
+            margin-left: 7.3vw; }
           body .block-site .section-item .icon-head__photoo {
             background: url(src/images/index/photoo.png) no-repeat 50% 53% white;
             background-size: 17.18vw;
@@ -743,8 +783,8 @@ body {
           body .block-site .section-item .icon-head__text {
             font-family: 'GothamPro-Regular';
             font-size: 3.9vw;
-            letter-spacing: .078vw;
-            line-height: 4.06vw;
+            letter-spacing: .02vw;
+            line-height: 4.5vw;
             margin: 0; }
             body .block-site .section-item .icon-head__text_color {
               color: #f73934;
@@ -755,7 +795,7 @@ body {
           color: #d62b2b;
           flex: 0 1;
           flex-direction: column;
-          margin: 7.03vw 0 7.81vw 30.46vw;
+          margin: 7.03vw 0 8.4vw 30vw;
           order: -1; }
           body .block-site .section-item .h1-block__h1-1 {
             font-family: 'GothamPro-Medium';
@@ -788,9 +828,10 @@ body {
           background: url(src/images/index/arrow-mobile.png) no-repeat;
           background-size: 100% 100%;
           display: flex;
-          flex: 0 1 41vw;
-          margin-left: 6.25vw;
-          width: 45vw; }
+          flex: 0 1 36vw;
+          margin-bottom: 3vw;
+          margin-left: 6.3vw;
+          width: 43vw; }
         body .block-site .section-item__h1_gallery {
           font-family: 'GothamPro-Bold';
           font-size: 6.25vw;
@@ -804,7 +845,7 @@ body {
           font-size: 6.4vw;
           font-weight: normal;
           letter-spacing: 0;
-          margin: 0 0 2.8vw 9.37vw;
+          margin: 0 0 8.5vw 9.37vw;
           padding: 1.56vw; }
         body .block-site .section-item_photos {
           align-content: center;
@@ -839,7 +880,7 @@ body {
           letter-spacing: -1.8px;
           line-height: 9.68vw;
           margin-bottom: 7.78vw;
-          margin-left: -.28vw; }
+          margin-left: -7vw; }
         body .block-site .section-item__p-prize-mobile {
           color: white;
           display: block;
@@ -891,13 +932,13 @@ body {
             background-color: rgba(0, 0, 0, 0.4); }
           body .block-site .section-item__button_gallery {
             margin: 0 0 0 0;
-            transform: translate(56.25vw, -12.28vw); }
+            transform: translate(56.25vw, -18.28vw); }
           body .block-site .section-item__button_prize {
             background: rgba(255, 245, 159, 0.1);
             margin: -.48vw 0 15.31vw 0; }
           body .block-site .section-item__button_map {
             margin-bottom: 14.84vw;
-            margin-left: 1.25; }
+            margin-left: 2vw; }
         body .block-site .section-item__text {
           font-family: 'GothamPro-Bold';
           font-size: 9.37vw;
