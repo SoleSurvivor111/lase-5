@@ -137,14 +137,14 @@ body {
     width: 100%; }
     .item__icon_gall {
       background-image: url(src/images/index/photo.png);
-      background-position: 48% 64%; }
+      background-position: 48% 75%; }
     .item__icon_info {
       background-image: url(src/images/index/prize.png);
       background-position: 50% 60%;
       background-size: 50px 60px; }
     .item__icon_summer {
       background-image: url(src/images/index/map.png);
-      background-position: 47% 64%; }
+      background-position: 47% 80%; }
   .item__p {
     color: #555555;
     flex: 0 0;
@@ -239,7 +239,7 @@ body {
       background-size: cover; }
   .section-item_prize {
     align-items: flex-start;
-    background: url(src/images/index/about_block_icons.4102b1d1.png) 11% 24% no-repeat, url(src/images/index/about_block.dbb14942.png) no-repeat;
+    background: url(src/images/index/about_block_icons.4102b1d1.png) 10% 25% no-repeat, url(src/images/index/about_block.dbb14942.png) no-repeat;
     background-size: 17.5vw 19.23vw, cover;
     color: white;
     display: flex;
@@ -290,10 +290,15 @@ body {
     overflow: hidden; }
   .section-item__img-vacation {
     background: url(src/images/index/lays_img.5f4a68cd.jpg) no-repeat;
-    background-size: 103% 103%;
+    background-size: 100% 100%;
     flex: 1 1;
     transform: scale(1);
-    transition: transform 10s linear; }
+    transition: transform 10s linear;
+    position: absolute;
+    top: -1%;
+    left: -1%;
+    bottom: -1%;
+    right: -1%; }
   .section-item_map {
     align-items: center;
     background: url(src/images/index/lays_block.1e4024ad.jpg) no-repeat;
@@ -395,7 +400,7 @@ body {
   .icon-head__text {
     color: #45370a;
     flex: 0;
-    font-size: 1.05vw;
+    font-size: 1.2vw;
     line-height: 1.3vw; }
     .icon-head__text_color {
       color: #f73934; }
@@ -515,7 +520,8 @@ body {
     letter-spacing: 0;
     margin: 0 0 2.6vw 5.76vw; }
   .section-item__h1_gallery {
-    font-size: 2.8vw; }
+    font-size: 2.8vw;
+    letter-spacing: -.01vw; }
   .section-item__h1-prize {
     margin-right: 6.4vw; }
   .section-item__p_gallery {
