@@ -293,12 +293,7 @@ body {
     background-size: 100% 100%;
     flex: 1 1;
     transform: scale(1);
-    transition: transform 10s linear;
-    position: absolute;
-    top: -1%;
-    left: -1%;
-    bottom: -1%;
-    right: -1%; }
+    transition: transform 10s linear; }
   .section-item_map {
     align-items: center;
     background: url(src/images/index/lays_block.1e4024ad.jpg) no-repeat;
