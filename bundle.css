@@ -280,7 +280,7 @@ body {
     opacity: 0;
     overflow: hidden; }
   .section-item__img-aerostat {
-    background: url(src/images/index/about_img.3f56954a.jpg) 60% 50% no-repeat;
+    background: url(src/images/index/about_img.3f56954a.jpg) 65% 50% no-repeat;
     background-size: 110% 110%;
     flex: 1 1;
     transition: transform 10s linear; }
