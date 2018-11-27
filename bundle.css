@@ -190,7 +190,7 @@ body {
     font-family: 'GothamPro-Bold';
     font-size: 2.88vw;
     letter-spacing: -.03vw;
-    line-height: 3.65vw;
+    line-height: 3.77vw;
     margin: 0 0 0 6.15vw; }
   .section-item__p_gallery {
     background: white;
@@ -270,7 +270,7 @@ body {
     font-weight: normal;
     letter-spacing: .006vw;
     line-height: 1.8vw;
-    margin: 0 0 2.7vw 5.76vw; }
+    margin: 0 0 2.82vw 5.76vw; }
   .section-item__h1-prize-mobile {
     display: none; }
   .section-item__p-prize-mobile {
@@ -318,11 +318,11 @@ body {
     font-family: 'GothamPro-Regular';
     font-size: 1.60vw;
     font-weight: bold;
-    height: 4.68vw;
+    height: 4.6vw;
     letter-spacing: .12vw;
     text-transform: uppercase;
     transition: background-color .3s ease;
-    width: 16vw; }
+    width: 15.9vw; }
     .section-item__button:hover {
       background-color: rgba(0, 0, 0, 0.4); }
     .section-item__button_gallery {
@@ -330,7 +330,7 @@ body {
     .section-item__button_prize {
       margin: 0 0 6.5vw 5.64vw; }
     .section-item__button_map {
-      margin-bottom: 3.8vw; }
+      margin-bottom: 3.86vw; }
   .section-item__text {
     color: #301f20;
     font-family: 'GothamPro-Bold';
@@ -363,11 +363,11 @@ body {
     animation: scale-1 .5s linear 1.5s;
     animation-fill-mode: forwards;
     background: url(src/images/index/photoo.png) no-repeat 50% 47% white;
-    background-size: 7.7vw;
+    background-size: 7vw;
     border-radius: 50%;
     flex: 0 0;
     flex-basis: 7.7vw;
-    margin-bottom: 1.6vw;
+    margin-bottom: 1.3vw;
     transform: scale(0);
     width: 7.7vw; }
   .icon-head__heart {
@@ -377,10 +377,10 @@ body {
     background-size: cover;
     border-radius: 50%;
     flex: 0 1;
-    flex-basis: 7.37vw;
-    margin-bottom: 1.6vw;
+    flex-basis: 7.7vw;
+    margin-bottom: 1.3vw;
     transform: scale(0);
-    width: 7.37vw; }
+    width: 7.7vw; }
   .icon-head__gift {
     animation: scale-1 .5s linear 2.5s;
     animation-fill-mode: forwards;
@@ -388,15 +388,15 @@ body {
     background-size: cover;
     border-radius: 50%;
     flex: 0 1;
-    flex-basis: 7.37vw;
-    margin-bottom: 1.6vw;
+    flex-basis: 7.7vw;
+    margin-bottom: 1.1vw;
     transform: scale(0);
-    width: 7.37vw; }
+    width: 7.7vw; }
   .icon-head__text {
     color: #45370a;
     flex: 0;
     font-size: 1.2vw;
-    line-height: 1.3vw; }
+    line-height: 1.48vw; }
     .icon-head__text_color {
       color: #f73934; }
     .icon-head__text_scale-p {
@@ -432,7 +432,7 @@ body {
   .h1-block__h1-3 {
     font-family: 'GothamPro-Black';
     font-size: 5.3vw;
-    letter-spacing: .26vw;
+    letter-spacing: .14vw;
     line-height: 4.2vw;
     margin-left: 1.7vw; }
 
@@ -441,7 +441,7 @@ body {
   background: url(src/images/index/box-icons.png);
   background-size: 100% 100%;
   flex: 0 1 15vw;
-  margin-bottom: .9vw;
+  margin-bottom: .6vw;
   margin-left: 7.1vw;
   width: 12.23vw; }
 
