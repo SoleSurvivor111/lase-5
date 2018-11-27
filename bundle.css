@@ -280,8 +280,8 @@ body {
     opacity: 0;
     overflow: hidden; }
   .section-item__img-aerostat {
-    background: url(src/images/index/about_img.3f56954a.jpg) no-repeat;
-    background-size: 105% 105%;
+    background: url(src/images/index/about_img.3f56954a.jpg) 30% 50% no-repeat;
+    background-size: 93% 92%;
     flex: 1 1;
     transition: transform 10s linear; }
   .section-item_vacation {
@@ -535,6 +535,8 @@ body {
       letter-spacing: .3vw; }
     .h1-block__h1-2 {
       letter-spacing: .2vw; }
+   .icon-head__photoo {
+    background: url(src/images/index/photoo.png) no-repeat 10% 20% white;}
   .box-icon-gl {
     margin-bottom: .4vw; }
   .footer {
