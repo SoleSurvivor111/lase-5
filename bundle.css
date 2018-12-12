@@ -1,22 +1,22 @@
 @font-face {
   font-family: 'GothamPro-Bold';
-  src: url(src/fonts/9781.otf); }
+  src: url(src/fonts/GothamPro-Bold.woff); }
 
 @font-face {
   font-family: 'GothamPro-Regular';
-  src: url(src/fonts/GothaProReg.otf); }
+  src: url(src/fonts/GothamPro.woff); }
 
 @font-face {
   font-family: 'GothamPro-Medium';
-  src: url(src/fonts/gotham-pro-medium.ttf); }
+  src: url(src/fonts/GothamPro-Medium.woff); }
 
 @font-face {
   font-family: 'GothamPro-Light';
-  src: url(src/fonts/gotham-pro-light.ttf); }
+  src: url(src/fonts/GothamPro-Light.woff); }
 
 @font-face {
   font-family: 'GothamPro-Black';
-  src: url(src/fonts/gotham-pro-black.ttf); }
+  src: url(src/fonts/GothamPro-Black.woff); }
 
 @keyframes fadeInRight {
   from {
@@ -83,7 +83,7 @@ body {
 
 .menu-wrap {
   align-items: center;
-  background: white;
+  background: #f6f6f6;
   cursor: pointer;
   display: flex;
   flex-direction: column;
@@ -100,13 +100,13 @@ body {
   .menu-wrap__p {
     color: #f73934;
     font: 16px 'GothamPro-Medium';
-    margin: 5px 0 0 0; }
+    margin: 7px 0 0 0; }
 
 .button {
   display: none; }
 
 .ul {
-  background: white;
+  background: #f6f6f6;
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -118,8 +118,8 @@ body {
 
 .item {
   align-items: center;
-  border-bottom: 1px solid white;
-  border-top: 1px solid white;
+  border-bottom: 1px solid #f6f6f6;
+  border-top: 1px solid #f6f6f6;
   cursor: pointer;
   display: flex;
   flex: 0 0 122px;
@@ -127,8 +127,8 @@ body {
   justify-content: flex-start;
   transition: border-color 1s ease; }
   .item:hover {
-    border-bottom: 1px solid lightgray;
-    border-top: 1px solid lightgray; }
+    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #ddd; }
   .item__icon {
     background-repeat: no-repeat;
     background-size: 50px 50px;
@@ -191,7 +191,7 @@ body {
     font-size: 2.88vw;
     letter-spacing: -.03vw;
     line-height: 3.77vw;
-    margin: 0 0 0 6.15vw; }
+    margin: 0 0 -0.1vw 6.15vw; }
   .section-item__p_gallery {
     background: white;
     color: #d34748;
@@ -263,14 +263,14 @@ body {
     font-size: 3.84vw;
     line-height: 4.17vw;
     margin-bottom: 4.87vw;
-    margin-right: 6.6vw; }
+    margin-right: 6.7vw; }
   .section-item__p-prize {
     font-family: 'GothamPro-Regular';
     font-size: 1.28vw;
     font-weight: normal;
     letter-spacing: .006vw;
     line-height: 1.8vw;
-    margin: 0 0 2.82vw 5.76vw; }
+    margin: 0 0 2.7vw 5.76vw; }
   .section-item__h1-prize-mobile {
     display: none; }
   .section-item__p-prize-mobile {
@@ -290,7 +290,7 @@ body {
     overflow: hidden; }
   .section-item__img-vacation {
     background: url(src/images/index/lays_img.5f4a68cd.jpg) no-repeat;
-    background-size: 100% 100%;
+    background-size: 100% 101%;
     flex: 1 1;
     transform: scale(1);
     transition: transform 10s linear; }
@@ -318,11 +318,11 @@ body {
     font-family: 'GothamPro-Regular';
     font-size: 1.60vw;
     font-weight: bold;
-    height: 4.6vw;
+    height: 4.68vw;
     letter-spacing: .12vw;
     text-transform: uppercase;
     transition: background-color .3s ease;
-    width: 15.9vw; }
+    width: 16vw; }
     .section-item__button:hover {
       background-color: rgba(0, 0, 0, 0.4); }
     .section-item__button_gallery {
@@ -330,7 +330,7 @@ body {
     .section-item__button_prize {
       margin: 0 0 6.5vw 5.64vw; }
     .section-item__button_map {
-      margin-bottom: 3.86vw; }
+      margin-bottom: 3.8vw; }
   .section-item__text {
     color: #301f20;
     font-family: 'GothamPro-Bold';
@@ -344,7 +344,7 @@ body {
   font-family: 'GothamPro-Regular'; }
   .icon-block_margin {
     margin-left: 5.5vw;
-    margin-top: 5vw; }
+    margin-top: 4.9vw; }
 
 .icon-head {
   align-items: center;
@@ -356,14 +356,14 @@ body {
   .icon-head_icon-1 {
     margin-right: 1.28vw; }
   .icon-head_icon-2 {
-    margin-left: .38vw; }
+    margin-left: .47vw; }
   .icon-head_icon-3 {
-    margin-left: 1.53vw; }
+    margin-left: 1.6vw; }
   .icon-head__photoo {
     animation: scale-1 .5s linear 1.5s;
     animation-fill-mode: forwards;
     background: url(src/images/index/photoo.png) no-repeat 50% 47% white;
-    background-size: 7vw;
+    background-size: 7vw 6.6vw;
     border-radius: 50%;
     flex: 0 0;
     flex-basis: 7.7vw;
@@ -374,7 +374,7 @@ body {
     animation: scale-1 .5s linear 2s;
     animation-fill-mode: forwards;
     background: url(src/images/index/heart.png) no-repeat 50% 50% white;
-    background-size: cover;
+    background-size: 7vw 6.6vw;
     border-radius: 50%;
     flex: 0 1;
     flex-basis: 7.7vw;
@@ -384,19 +384,19 @@ body {
   .icon-head__gift {
     animation: scale-1 .5s linear 2.5s;
     animation-fill-mode: forwards;
-    background: url(src/images/index/box.png) no-repeat 70% 25% white;
+    background: url(src/images/index/box.png) no-repeat 50% 30% white;
     background-size: 7vw 6.6vw;
     border-radius: 50%;
     flex: 0 1;
     flex-basis: 7.7vw;
-    margin-bottom: 1.1vw;
+    margin-bottom: 1.3vw;
     transform: scale(0);
     width: 7.7vw; }
   .icon-head__text {
     color: #45370a;
     flex: 0;
     font-size: 1.2vw;
-    line-height: 1.48vw; }
+    line-height: 1.5vw; }
     .icon-head__text_color {
       color: #f73934; }
     .icon-head__text_scale-p {
@@ -416,25 +416,25 @@ body {
   color: #f73934;
   flex: 1 1;
   flex-direction: column;
-  margin-bottom: 3vw;
+  margin-bottom: 2vw;
   margin-left: 5.1vw; }
   .h1-block__h1-1 {
     font-family: 'GothamPro-Medium';
     font-size: 6.25vw;
     letter-spacing: .35vw;
-    line-height: 6.25vw; }
+    line-height: 6.5vw; }
   .h1-block__h1-2 {
     font-family: 'GothamPro-Light';
     font-size: 3.5vw;
     letter-spacing: .2vw;
-    line-height: 3.5vw;
+    line-height: 2.6vw;
     margin-right: -.45vw; }
   .h1-block__h1-3 {
     font-family: 'GothamPro-Black';
     font-size: 5.3vw;
     letter-spacing: .14vw;
-    line-height: 4.2vw;
-    margin-left: 1.7vw; }
+    line-height: 5.4vw;
+    margin-left: 1.65vw; }
 
 .box-icon-gl {
   align-items: flex-end;
@@ -496,48 +496,59 @@ body {
 
 @media only screen and (max-width: 1400px) {
   .block-site {
-    height: 182vw; }
+    height: 182.1vw; }
   .main-section_image {
     flex: 0 1 41.5vw; }
   .icon-head_icon-1 {
     margin-right: .9vw; }
   .section-item::before {
-    bottom: 52.5%; }
-  .section-item__button_prize {
-    margin: 0 0 6.36vw 5.5vw; }
-  .section-item__button_prize {
-    margin: 0 0 6.36vw 5.5vw; }
+    bottom: 52.7%; }
   .section-item__button {
     width: 15.7vw; }
     .section-item__button_map {
-      margin-bottom: 3.7vw; }
+      margin-bottom: 3.8vw; }
+    .section-item__button_prize {
+      margin: 0 0 6.44vw 5.5vw; }
+    .section-item__button_gallery {
+      margin: 0 0 5.86vw 5.5vw; }
+  .section-item_prize {
+    background-position: 10.5% 24.5%; }
   .section-item__p-prize {
     letter-spacing: 0;
-    margin: 0 0 2.6vw 5.76vw; }
+    margin: 0 0 2.7vw 5.76vw; }
   .section-item__h1_gallery {
     font-size: 2.8vw;
-    letter-spacing: -.01vw; }
+    letter-spacing: -.01vw;
+    margin: 0 0 0 6.15vw; }
   .section-item__h1-prize {
+    line-height: 4.13vw;
     margin-right: 6.4vw; }
   .section-item__p_gallery {
     margin: -.2vw 0 2.43vw 5.64vw; }
   .section-item__text {
     margin-bottom: 2.1vw;
     margin-left: 0; }
-  .section-item__button_gallery {
-    margin: 0 0 5.9vw 5.5vw; }
   .icon-head__photoo {
-    margin-bottom: 1.4vw; }
+    margin-bottom: 1.2vw;
+    margin-left: -.6vw;
+    margin-top: -.1vw; }
+  .icon-head__gift {
+    margin-bottom: 1vw;
+    margin-top: -.2vw; }
+  .icon-head__heart {
+    margin-top: -.2vw; }
   .h1-block {
-    margin-bottom: 3.3vw;
+    margin-bottom: 2.3vw;
     margin-left: 4.9vw; }
     .h1-block__h1-1 {
-      letter-spacing: .3vw; }
+      font-size: 6.33vw;
+      letter-spacing: .3vw;
+      line-height: 6.5vw; }
     .h1-block__h1-2 {
-      letter-spacing: .2vw; }
-   .icon-head__photoo {
-    background: url(src/images/index/photoo.png) no-repeat 50% 45% white;
-    background-size: 7vw 6.6vw;}
+      letter-spacing: .2vw;
+      line-height: 2.2vw; }
+    .h1-block__h1-3 {
+      line-height: 5.6vw; }
   .box-icon-gl {
     margin-bottom: .4vw; }
   .footer {
@@ -603,11 +614,29 @@ body {
     transform: rotate(-45deg); }
   .active {
     transform: translateY(-162px); }
+  @keyframes fadeInRight {
+    from {
+      opacity: 0;
+      transform: translate3d(100%, 0, 0); }
+    30% {
+      opacity: 0; }
+    to {
+      opacity: 1;
+      transform: translate3d(0, 0, 0); } }
+  @keyframes fadeInLeft {
+    from {
+      opacity: 0;
+      transform: translate3d(-100%, 0, 0); }
+    30% {
+      opacity: 0; }
+    to {
+      opacity: 1;
+      transform: translate3d(0, 0, 0); } }
   .mjs-fadeInLeft {
-    animation: fadeInLeft .4s linear;
+    animation: fadeInLeft .6s linear;
     animation-fill-mode: forwards; }
   .mjs-fadeInRight {
-    animation: fadeInRight .4s linear;
+    animation: fadeInRight .6s linear;
     animation-fill-mode: forwards; }
   body {
     display: flex;
@@ -670,12 +699,15 @@ body {
         z-index: 2; }
       body .block-site .item {
         align-items: center;
-        background: white;
-        border-bottom: 1px solid lightgray;
+        background: #f6f6f6;
+        border-bottom: 1px solid #ddd;
         display: flex;
         flex: 0 0 25vw;
-        flex-direction: row;
-        align-items: center; }
+        flex-direction: row; }
+        body .block-site .item:hover {
+          background: #f8f8f8;
+          border-bottom: 1px solid #ddd;
+          border-top: 1px solid #f6f6f6; }
         body .block-site .item_close {
           align-items: center;
           background: #f0eded;
@@ -899,8 +931,8 @@ body {
           overflow: hidden;
           opacity: 1; }
         body .block-site .section-item__img-aerostat {
-          background: url(src/images/mobile/about_img_mobile.7747e5da.jpg) no-repeat 10% 60%;
-          background-size: 100% 110%;}
+          background: url(src/images/mobile/about_img_mobile.7747e5da.jpg) no-repeat 45% 55%;
+          background-size: 100% 115%; }
         body .block-site .section-item_vacation {
           display: flex;
           opacity: 1;
