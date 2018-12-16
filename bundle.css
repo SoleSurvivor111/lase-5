@@ -614,6 +614,9 @@ body {
     transform: rotate(-45deg); }
   .active {
     transform: translateY(-162px); }
+  .show {
+    visibility: visible !important;
+    transition-delay: 0s !important; }
   .mjs-fadeInLeft {
     transform: translateY(0%) !important;
     opacity: 1 !important;
@@ -677,6 +680,8 @@ body {
         overflow: hidden;
         position: fixed;
         top: 25vw;
+        transition-delay: .5s;
+        visibility: hidden;
         width: 100%; }
       body .block-site .item {
         align-items: center;
