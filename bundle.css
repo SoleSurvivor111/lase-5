@@ -207,9 +207,9 @@ body {
   .section-item__box {
     cursor: pointer;
     display: flex;
-    height: 30vw;
-    margin: .2vw;
-    width: 30vw; }
+    height: 13.7vw;
+    margin: .3vw;
+    width: 13.5vw; }
     .section-item__box-photo-1 {
       background: url(src/images/stub/1.dc59205a.png) no-repeat;
       background-size: cover; }
@@ -537,6 +537,10 @@ body {
     margin-top: -.2vw; }
   .icon-head__heart {
     margin-top: -.2vw; }
+  .section-item__box {
+    height: 13.5vw;
+    margin: .3vw;
+    width: 13.4vw; }
   .h1-block {
     margin-bottom: 2.3vw;
     margin-left: 4.9vw; }
@@ -778,7 +782,7 @@ body {
           font-family: 'GothamPro-Regular';
           font-size: 2.82vw; }
           body .block-site .section-item .icon-block_margin {
-            margin: 0 0 0 4.2vw; }
+            margin: 0 0 0 4.6vw; }
         body .block-site .section-item .icon-head {
           align-items: center;
           flex-direction: column;
@@ -791,25 +795,25 @@ body {
           body .block-site .section-item .icon-head_icon-3 {
             margin-left: 7.3vw; }
           body .block-site .section-item .icon-head__photoo {
-            background: url(src/images/index/photoo.png) no-repeat 50% 53% white;
+            background: url(src/images/index/photoo.png) no-repeat 50% 30% white;
             background-size: 17.18vw;
             flex: 0 0;
             flex-basis: 20.31vw;
-            margin-bottom: 3.07vw;
+            margin-bottom: 2vw;
             width: 20.31vw; }
           body .block-site .section-item .icon-head__heart {
             background: url(src/images/index/heart.png) no-repeat 50% 50% white;
             background-size: 17.18vw;
             flex: 0 0;
             flex-basis: 20.31vw;
-            margin-bottom: 3.12vw;
+            margin-bottom: 2.5vw;
             width: 20.31vw; }
           body .block-site .section-item .icon-head__gift {
-            background: url(src/images/index/box.png) no-repeat 50% 50% white;
+            background: url(src/images/index/box.png) no-repeat 50% 30% white;
             background-size: 17.18vw;
             flex: 0 0;
             flex-basis: 20.31vw;
-            margin-bottom: 2.81vw;
+            margin-bottom: 2vw;
             width: 20.31vw; }
           body .block-site .section-item .icon-head__text {
             font-family: 'GothamPro-Regular';
@@ -826,7 +830,7 @@ body {
           color: #d62b2b;
           flex: 0 1;
           flex-direction: column;
-          margin: 7.03vw 0 8.4vw 30vw;
+          margin: 8.4vw 0 8.4vw 30vw;
           order: -1; }
           body .block-site .section-item .h1-block__h1-1 {
             font-family: 'GothamPro-Medium';
@@ -837,14 +841,14 @@ body {
             font-family: 'GothamPro-Light';
             font-size: 7.5vw;
             letter-spacing: .5vw;
-            line-height: 7vw;
+            line-height: 6vw;
             margin-right: .78vw; }
           body .block-site .section-item .h1-block__h1-3 {
             font-family: 'GothamPro-Black';
             font-size: 12.18vw;
             font-weight: normal;
             letter-spacing: 0;
-            line-height: 9.37vw;
+            line-height: 10.37vw;
             margin-left: 1.56vw;
             margin-right: 6.25vw; }
         body .block-site .section-item_gallery {
@@ -884,7 +888,9 @@ body {
           flex-wrap: wrap;
           justify-content: center; }
         body .block-site .section-item__box {
-          margin: .5vw; }
+          height: 29.5vw;
+          margin: .6vw;
+          width: 29.5vw; }
         body .block-site .section-item_prize {
           align-items: flex-start;
           background: url(src/images/mobile/about_block_mobile.088df3d6.png) no-repeat #0063c8;
@@ -967,12 +973,12 @@ body {
             margin: -.48vw 0 15.31vw 0; }
           body .block-site .section-item__button_map {
             margin-bottom: 14.84vw;
-            margin-left: 2vw; }
+            margin-left: 1.7vw; }
         body .block-site .section-item__text {
           font-family: 'GothamPro-Bold';
           font-size: 9.37vw;
           margin-bottom: 3.9vw;
-          margin-left: 1.71vw; }
+          margin-left: 1.5vw; }
       body .block-site .footer {
         background: #3c3c3c;
         display: flex;
