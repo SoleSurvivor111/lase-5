@@ -207,9 +207,9 @@ body {
   .section-item__box {
     cursor: pointer;
     display: flex;
-    height: 13.7vw;
+    height: 30%;
     margin: .3vw;
-    width: 13.5vw; }
+    width: 30%; }
     .section-item__box-photo-1 {
       background: url(src/images/stub/1.dc59205a.png) no-repeat;
       background-size: cover; }
@@ -538,9 +538,7 @@ body {
   .icon-head__heart {
     margin-top: -.2vw; }
   .section-item__box {
-    height: 13.5vw;
-    margin: .3vw;
-    width: 13.4vw; }
+    margin: .3vw; }
   .h1-block {
     margin-bottom: 2.3vw;
     margin-left: 4.9vw; }
