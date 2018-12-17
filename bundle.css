@@ -950,9 +950,10 @@ body {
           body .block-site .section-item_map::before {
             content: none; }
         body .block-site .section-item__button {
-          appearance: none;
+          -webkit-appearance: none;
           background: rgba(143, 12, 0, 0.1);
           border: .22vw solid white;
+          border-radius: 0;
           color: white;
           cursor: pointer;
           font-family: 'GothamPro-Regular';
