@@ -187,7 +187,7 @@ body {
   .section-item_gallery {
     align-items: flex-start;
     background: url(src/images/index/gallery_block.d7a874af.jpg) no-repeat;
-    background-size: 100% 100%;
+    background-size: 100% 100.5%;
     flex-direction: column;
     justify-content: flex-end; }
   .section-item__h1_gallery {
@@ -622,8 +622,8 @@ body {
   .active {
     transform: translateY(-162px); }
   .show {
-    visibility: visible !important;
-    transition-delay: 0s !important; }
+    transition-delay: 0s !important;
+    visibility: visible !important; }
   .mjs-fadeInLeft {
     opacity: 1 !important;
     transform: translateX(0) !important; }
